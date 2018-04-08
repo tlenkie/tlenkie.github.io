@@ -1,3 +1,3 @@
-var access_token = '123';
-var user_id = '345';
+var access_token = '';
+var user_id = '';
 var vk_url = 'https://api.vk.com/method/';
