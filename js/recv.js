@@ -2,7 +2,7 @@ function getUrl(method, params) {
 	if (!method) throw new Error('Не указан метод.');
 	params = params || {};
 	params.access_token = access_token;
-	return vk_url + method + '?' + $.params(params);
+	return vk_url + method + '?' + $.param(params);
 }
 
 function sendRequest(meth, params, func) {
