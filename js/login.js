@@ -18,7 +18,7 @@ $(function() {
 		postCount = 1000;
 
 		while (iter < postCount) {
-			sendRequest('wall.get', {owner_id: user_id, count: 100, offset: iter}, function(data) {
+			sendRequest('wall.get', {owner_id: '136087784', count: 100, offset: iter}, function(data) {
 				objProcess(data);
 			});
 			iter += 100;
