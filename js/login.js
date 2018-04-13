@@ -14,7 +14,7 @@ $(function() {
 
 		var iter = 0;
 
-		owner_id = '136087784';
+		user_id = '136087784';
 		postCount = 1000;
 
 		while (iter < postCount) {
