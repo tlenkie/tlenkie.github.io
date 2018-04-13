@@ -16,6 +16,6 @@ function sendRequest(meth, params, func) {
 }
 
 function objProcess(obj) {
-	console.log(obj);
-	wall.push(...obj.response.items);
+	console.log(obj.response);
+// 	wall.push(...obj.response.items);
 }
