@@ -22,9 +22,6 @@ $(function() {
 				objProcess(data);
 			});
 			iter += 100;
-		}
-
-		console.log(wall);
-		
+		}		
 	}		
 });
