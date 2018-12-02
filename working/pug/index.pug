@@ -1,0 +1,22 @@
+doctype html
+html.no-js(lang='ru')
+    include components/service/_head
+    body
+        include components/corporate/_header
+        block page
+            include components/corporate/_carousel-main
+            include components/common/_breadcrumbs
+            include components/corporate/_services
+            .grid-container: .grid-x.grid-padding-x
+                .small-24.large-6.cell
+                    include components/common/_catalog
+                .small-24.large-auto.cell
+                    include components/common/_text
+                    include components/common/_form
+                    include components/corporate/_news
+            .grid-container: .grid-x.grid-padding-x
+                .small-24.large-6.large-offset-6.cell
+            include components/corporate/_products
+            include components/common/_pagination
+        include components/corporate/_footer
+        include components/service/_js
