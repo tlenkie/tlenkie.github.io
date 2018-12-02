@@ -1,5 +1,5 @@
 .footer {
-  padding-top: rem-calc(48);
+  padding-top: rem-calc(36);
   padding-bottom: rem-calc(24);
   color: #010101;
   background: #f7f7f7;
@@ -11,7 +11,7 @@
 
   &__bottom {
     font-size: rem-calc(13);
-    @include margin-level(top,green);
+    @include margin-level(top,yellow);
     text-align: center;
   }
 
