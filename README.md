@@ -1,2 +1,2 @@
 # tlenkie.github.io
-Вёрстка
+Очень старая вёрстка для cetera.ru
